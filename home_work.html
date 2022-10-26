@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Домашнее задание</title>
-    html{
-        background-color:rgb(65, 65, 71);
-    }
+    <style>
+        html {
+            background-color: rgb(18, 18, 19);
+        }
+
+        h1 {
+            color: darkred;
+        }
+
+        p,footer {
+            color: rgb(245, 135, 9);
+            font-size: xx-large;
+        }
+    </style>
+
 </head>
+
 <body>
+    <h1><strong>Задание: Создать страницу, которая спрашивает имя у пользователя <br>и выводит его с помощью
+            функции.</strong></h1>
     <script>
-        
+        const name = prompt("Как тебя зовут?", "Имя");
+        function youFuncName() {
+            alert(`Привет,${name}`);
+        }
+        youFuncName();
     </script>
+    <p><img src="https://avatars.mds.yandex.net/i?id=fd2f2ba5fb603ae81f21d4da64461c0c-5238850-images-thumbs&n=13"
+            alt="Картинка салюта"></p>
+<script>
+    let result = confirm("Домашнее задание выполнено?");
+    if (result) {
+        alert("Спасибо!");
+    } else {
+        alert("Спасибо, буду стараться выполнить задание!");
+    }
+</script>
 </body>
+<footer><strong>КОНЕЦ</strong></footer>
 </html>
